@@ -9,17 +9,17 @@ namespace Prueba_de_pilas
 {
     public class Pila
     {
-        Nodo header, tail;
+        Nodo tail;
         int limit, cant;
         public Pila()
         {
-            header = tail = null;
+            tail = null;
             cant = 0;
             limit = 10;
         }
         public Pila(int limit)
         {
-            header = tail = null;
+            tail = null;
             cant = 0;
             this.limit = limit;
         }
